@@ -25,7 +25,7 @@ def total_even_pairs(src)
    counter = 0 
    src.each { |row_index| counter += 1}
    if counter % 2 == 0
-     total = row_index
+     total = row_index 
 end
 total
 end
